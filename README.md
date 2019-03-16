@@ -1,3 +1,9 @@
+## Checklist
+
+- [ ] **Setup [StatusCake](https://statuscake.com) to keep free Heroku instances warm**. When deploying to a free Heroku instance, do you have a cron task that will ping the `/health` endpoint at least once every 30 mins to keep the instance warm?
+
+# README (Original)
+
 [![Build Status](https://travis-ci.org/Rob--W/cors-anywhere.svg?branch=master)](https://travis-ci.org/Rob--W/cors-anywhere)
 [![Coverage Status](https://coveralls.io/repos/github/Rob--W/cors-anywhere/badge.svg?branch=master)](https://coveralls.io/github/Rob--W/cors-anywhere?branch=master)
 
